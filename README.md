@@ -20,7 +20,7 @@ The bot needs Node.js 20+ and starts with `npm start`.
 ## Local setup
 
 ```bash
-git clone https://github.com/MykelGoal/Venom-MD-Public.git
+git clone https://github.com/MykelGoal/Venom-MD-bot.git
 cd Venom-MD-Public
 cp .env.example .env
 # Set SESSION_ID and OWNER_NUMBER in .env
@@ -39,7 +39,7 @@ This confirms the local bundle loads its complete command registry without openi
 
 ## Links
 
-- Updates and deployments: https://github.com/MykelGoal/Venom-MD-Public
+- Updates and deployments: https://github.com/MykelGoal/Venom-MD-bot
 - YouTube: https://youtube.com/@venommdbot
 - WhatsApp channel: https://whatsapp.com/channel/0029Vb8bQew4dTnRwa7hlw2V
 
