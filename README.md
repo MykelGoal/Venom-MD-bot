@@ -39,7 +39,7 @@ This confirms the local bundle loads its complete command registry without openi
 
 ## Links
 
-- Source and updates: https://github.com/MykelGoal/Venom-MD-bot
+- Updates and deployments: https://github.com/MykelGoal/Venom-MD-Public
 - YouTube: https://youtube.com/@venommdbot
 - WhatsApp channel: https://whatsapp.com/channel/0029Vb8bQew4dTnRwa7hlw2V
 
