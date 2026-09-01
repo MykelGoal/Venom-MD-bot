@@ -20,7 +20,7 @@ The bot needs Node.js 20+ and starts with `npm start`.
 ## Local setup
 
 ```bash
-git clone <YOUR-PUBLIC-REPOSITORY-URL>
+git clone https://github.com/MykelGoal/Venom-MD-Public.git
 cd Venom-MD-Public
 cp .env.example .env
 # Set SESSION_ID and OWNER_NUMBER in .env
