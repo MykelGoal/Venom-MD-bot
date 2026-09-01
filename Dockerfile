@@ -1,9 +1,14 @@
-FROM node:20-alpine
+# Debian-based Node image avoids native-module compatibility problems that can
+# occur with Alpine/musl builds (for example, image-processing dependencies).
+FROM node:20-bookworm-slim
 WORKDIR /app
 
-# install deps first for better caching
+# package.json runs scripts/setup.js as a postinstall hook. Copy that hook
+# before installing dependencies; the rest of the compact release can still
+# be copied afterwards so dependency layers remain cacheable.
 COPY package*.json ./
-RUN npm install --omit=dev
+COPY scripts/setup.js ./scripts/setup.js
+RUN npm ci --omit=dev --no-audit --no-fund
 
 COPY . .
 
