@@ -7,7 +7,7 @@
 
   <a href="https://github.com/MykelGoal/Venom-MD-bot/stargazers"><img src="https://img.shields.io/github/stars/MykelGoal/Venom-MD-bot?style=for-the-badge&logo=github&color=FFD700&labelColor=101820" alt="GitHub stars" /></a>
   <a href="https://github.com/MykelGoal/Venom-MD-bot/fork"><img src="https://img.shields.io/github/forks/MykelGoal/Venom-MD-bot?style=for-the-badge&logo=github&color=39FF14&labelColor=101820" alt="GitHub forks" /></a>
-  <img src="https://img.shields.io/badge/392%2B-COMMANDS-00D9FF?style=for-the-badge&labelColor=101820" alt="392 plus commands" />
+  <img src="https://img.shields.io/badge/279%2B-COMMANDS-00D9FF?style=for-the-badge&labelColor=101820" alt="279 plus commands" />
   <img src="https://img.shields.io/badge/19-CATEGORIES-A855F7?style=for-the-badge&labelColor=101820" alt="19 categories" />
   <img src="https://img.shields.io/badge/NODE.JS-20%2B-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=101820" alt="Node.js 20 plus" />
 
