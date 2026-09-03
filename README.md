@@ -2,12 +2,10 @@
   <img src="https://raw.githubusercontent.com/MykelGoal/Venom-MD-bot/main/assets/menu-header.png" alt="VENOM MD — Multi-Device WhatsApp Bot" width="100%" />
 
   <h1>🐍 VENOM MD</h1>
-  <p><strong>A fast, feature-packed multi-device WhatsApp bot — built for your community.</strong></p>
+  <p><strong>Fast multi-device WhatsApp bot — AI tools, media, group control, games. 279+ commands.</strong></p>
 
   <a href="https://github.com/MykelGoal/Venom-MD-bot/stargazers"><img src="https://img.shields.io/github/stars/MykelGoal/Venom-MD-bot?style=for-the-badge&logo=github&color=FFD700&labelColor=101820" alt="GitHub stars" /></a>
-  <a href="https://github.com/MykelGoal/Venom-MD-bot/fork"><img src="https://img.shields.io/github/forks/MykelGoal/Venom-MD-bot?style=for-the-badge&logo=github&color=39FF14&labelColor=101820" alt="GitHub forks" /></a>
   <img src="https://img.shields.io/badge/279%2B-COMMANDS-00D9FF?style=for-the-badge&labelColor=101820" alt="279 plus commands" />
-  <img src="https://img.shields.io/badge/NODE.JS-20%2B-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=101820" alt="Node.js 20 plus" />
 
   <br /><br />
   <a href="https://render.com/deploy?repo=https://github.com/MykelGoal/Venom-MD-bot"><img src="https://render.com/images/deploy-to-render-button.svg" height="36" alt="Deploy to Render" /></a>
@@ -20,40 +18,24 @@
 
 ## 🚀 Deploy in 2 minutes
 
-1. Click **Deploy to Render** above (or fork first).
-2. Click **GET SESSION ID**, link a *secondary* WhatsApp number, and copy the session ID.
-3. Open your Render service → **Environment** → add the variables below → **Deploy**.
+1. Click **Deploy to Render** above.
+2. Click **GET SESSION ID** and link a *secondary* WhatsApp number.
+3. Render → **Environment** → set `SESSION_ID` + `OWNER_NUMBER` (your number, international format, no `+`) → **Deploy**.
 
-| Variable | What to put | Required |
-|---|---|:---:|
-| `SESSION_ID` | The session ID from step 2 | ✅ |
-| `OWNER_NUMBER` | Your number in international format, no `+`, no spaces | ✅ |
-| `PREFIX` | Command prefix — default `.` | — |
-| `BOT_NAME` | Your bot's display name | — |
-| `GEMINI_API_KEY` | Free key from aistudio.google.com — unlocks real-voice `.tts` | — |
-
-> Use a secondary WhatsApp account for bots and follow WhatsApp's terms of service.
+Optional vars: `PREFIX` · `BOT_NAME` · `GEMINI_API_KEY` (real voice for `.tts`).
+Use a secondary WhatsApp account and follow WhatsApp's terms of service.
 
 ## 💻 Run locally
 
 ```bash
-git clone https://github.com/MykelGoal/Venom-MD-bot.git
-cd Venom-MD-bot
-cp .env.example .env   # fill in SESSION_ID + OWNER_NUMBER
-npm install && npm start
+git clone https://github.com/MykelGoal/Venom-MD-bot.git && cd Venom-MD-bot
+cp .env.example .env && npm install && npm start
 ```
 
-## 🛡️ What's inside
+## 👥 Support
 
-- 🤖 AI helpers, search, translate, summarize
-- 🎵 Music, video, stickers, image tools, downloaders
-- 🛡️ Group moderation — anti-link with auto-delete, anti-spam, welcome
-- 🎮 Games, economy, quotes and 279+ commands total
-- ⚙️ Multi-device, self-contained bundle — no hidden remote code
-
-## 🌐 Community
-
-Questions, tips and new releases → our **WhatsApp channel** (badge above). Tutorials → **YouTube**.
+Send your bot **`.support`** (or `.channel`) — official channel, session links and updates.
+My number is in the **channel description**.
 
 <div align="center">
   <sub>Made with 💚 by <b>MY KEL GOAL · MR VENOM</b></sub>
